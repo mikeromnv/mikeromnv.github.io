@@ -1,0 +1,156 @@
+a{
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+/*----body----*/
+
+body{
+  margin: 0;
+  background-image: url(bckg.jpg);
+  background-size: cover;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+  height: 110px;
+}
+.content{
+  border-radius: 15px;
+  width: 960px;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.hyperlinks{
+  background-color: rgba(104, 124, 81, 0.747);
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 15px; 
+  font-size: 18px;
+}
+.forms{
+  background-color: rgba(106, 122, 70, 0.795);
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 15px; 
+  font-size: 20px;
+}
+
+/*----table----*/
+
+.tab{
+  background-color: rgba(104, 98, 34, 0.747);
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 15px; 
+  
+}
+table {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color:  rgb(255, 255, 255);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+
+}
+.head-table{
+  background-color: #680c0b;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+tr {
+  background-color: #bd4846;
+}
+tr.even {
+  background-color: #852b2a;
+}
+
+/*----header----*/
+
+header{
+  width: 100%;
+  background-color: #3d4b34f1;
+  font-family: 'Courier New', Courier, monospace;
+	height: 150px;
+}
+#logo {
+  float:left;
+  border-radius: 100px; 
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 0 0 2px #6b0c0b, 0 0 13px #333; 
+  margin: 10px;
+ }
+#name_header{
+  text-align: left;
+  padding-top: 100px;
+  color: #FDFFF5;
+  letter-spacing: 2.5px;
+}
+header nav{
+  width: 960px;
+  margin: 0 auto;
+}
+ header nav ul li{
+  float: right;
+  padding: 10px;
+  background-color: #6b0d0be8;
+  list-style: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 22px;
+  letter-spacing: 2.5px;
+}
+.nav-link{
+  margin-bottom: 10px;
+  color: #FDFFF5;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color:rgba(204, 139, 139, 0.945);
+}
+
+/*----footer----*/
+
+footer{
+  width: 100%;
+  margin-top: auto;
+  background: #6b0d0bd5;
+  color: #FDFFF5;;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-links{
+  text-decoration: none;
+  color: #FDFFF5;;
+  font-family: 'Courier New', Courier, monospace;
+}
+.footer-links:hover{
+  color:rgb(0, 0, 0);
+}
+footer ul li{
+  padding: 15px;
+}
+.nav-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+  height: 110px;
+  padding: 10px 15px;
+  list-style: none;
+}
+footer p{
+  font-size: 25px;
+}
