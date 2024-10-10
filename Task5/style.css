@@ -1,0 +1,12 @@
+html, body{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 27px;
+  background-image: url(bckg.jpg);
+  background-size: cover;
+  color: #FDFFF5;
+}
+form{
+    background-color: #3d4b34f1;
+    padding: 15px;
+}
+

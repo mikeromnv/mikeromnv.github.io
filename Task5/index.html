@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="calc.js"></script>
+  <title>Romanov</title>
+</head>
+  <body>
+      <form class="calc">
+          <label id="total"> </label>
+          <br>
+
+            <label for="item">Товар:</label>
+              <select id="item" name="item" required>
+                  <option value="">Товар</option>
+                  <option value="850">Тарелка</option>
+                  <option value="330">Бокал</option>
+                  <option value="89000">Холодильник</option>
+                  <option value="120">Свеча</option>
+                  <option value="5">Бумажный стаканчик</option>
+                  <option value="350">Контейнер для еды</option>
+              </select>
+
+          <br>
+
+          <label for="count">Количество товара:</label>
+          <input id="count" name="count" min="1" value="1" placeholder="Введите количество " required type="number">
+
+          <button id="price" type="submit">Стоимость</button>
+      </form>
+  </body>
+</html>
