@@ -1,0 +1,40 @@
+body{
+  background-image: url(bckg.jpg);
+  background-size: cover;
+  font-weight: bold;
+}
+
+body, form, div, option, select, input{
+  font-size: 18pt;
+  letter-spacing: 1px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 27px;
+}
+form{
+    background-color: #3d4b34f1;
+    padding: 15px;
+}
+#final_cost{
+  background-color: #6b0d0be8;
+  padding: 5px;
+  color: #FDFFF5;
+  
+}
+
+form{
+  width: 100%;
+  text-align: center;
+}
+div{
+  width: 100%;
+}
+
+form input, form select{
+  border-radius: 15px;
+}
+
+select{
+  width: 30%;
+  margin: 0 auto;
+}
+

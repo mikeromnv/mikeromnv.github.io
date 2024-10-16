@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calc.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title> Romanov </title>
+</head>
+
+<body>
+    <form>
+        <label id="final_cost">Итоговая стоимость: 0</label>
+        <br>
+
+        <p> Категория товара: </p>
+        <div class="category_selection" id="category_selection">
+            <label><input type="radio" name="product_type" value="type1"> Товар 1 </label>
+            <label><input type="radio" name="product_type" value="type2"> Товар 2 </label>
+            <label><input type="radio" name="product_type" value="type3"> Товар 3 </label>
+        </div> 
+        <br>
+         
+        <select name="product_options" id="product_options">
+            <option value="option_0"> Без опций </option>
+            <option value="option_1"> Опция 1 </option>
+            <option value="option_2"> Опция 2 </option>
+            <option value="option_3"> Опция 3 </option>
+        </select>
+        <br>
+
+        <div id="features_section">
+            <label><input type="checkbox" name="feature_1" /> Свойство 1 </label>
+            <label><input type="checkbox" name="feature_2" /> Свойство 2 </label>
+            <label><input type="checkbox" name="feature_3" /> Свойство 3 </label>
+        </div>
+        <br>
+        
+    
+        <label for="product_quantity">Количество товара:</label>
+        <input id="product_quantity" name="product_quantity" type="number" min="1" value="1">
+
+        <br>
+    </form>
+
+    
+
+</body>
+</html>
