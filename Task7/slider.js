@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $(".slider").slick({
+        arrows: true,
         dots: true,
         infinite: true,
-        arrows: true,
         responsive: [{
             breakpoint: 960,
             settings: {
