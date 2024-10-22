@@ -17,24 +17,6 @@ body{
   width: calc(33.33% * 8); /* Общая ширина контейнера, 8 изображений */
 }
 
-.gallery-images img {
-  width: 33.33%; /* Показывать 3 изображения на десктопе */
-  height: auto;
-  flex-shrink: 0; /* Принудительно не уменьшать ширину изображений */
-}
-
-.arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 40px;
-  color: #333;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 10px;
-  cursor: pointer;
-  z-index: 100;
-}
-
 .left-arrow {
   left: 10px;
 }
@@ -58,13 +40,24 @@ body{
   cursor: pointer;
 }
 
-.active {
-  background-color: #717171;
+.gallery-images img {
+  width: 33.33%; /* Показывать 3 изображения на десктопе */
+  height: auto;
+  flex-shrink: 0; /* Принудительно не уменьшать ширину изображений */
 }
 
-/* Адаптивность для смартфонов */
-@media (max-width: 600px) {
-  .gallery-images img {
-      width: 100%; /* Показывать одно изображение на мобильных */
-  }
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.active {
+  background-color: #717171;
 }

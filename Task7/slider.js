@@ -3,7 +3,7 @@ $(document).ready(function(){
         dots:true,
         infinite: true,
         responsive:[{
-            breakpoint: 900,
+            breakpoint: 960,
             settings: {
                 dots:true,
                 infinite: true,
