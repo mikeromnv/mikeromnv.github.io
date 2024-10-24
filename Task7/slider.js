@@ -1,4 +1,5 @@
-$(document).ready(function(){
+/*node browser: true */ /*global $ */
+$(document).ready(function () {
     $(".slider").slick({
         arrows: true,
         dots: true,
