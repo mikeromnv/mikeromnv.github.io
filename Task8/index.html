@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+    <title>Romanov</title>
+</head>
+<body>
+    <div id="background-overlay"></div>
+    <button id="form-trigger">ФОРМА</button>
+    <div id="popup" class="modal-popup">
+        <form id="UserForm" class="ajaxForm" action="https://formcarry.com/s/jMVltZAXvKN" enctype="multipart/form-data" method="POST">
+            <label>
+                ФИО<br/>
+                <input name="user_name" />
+            </label><br/>
+            <label>
+                Телефон: <br>
+                <input name="user_phone" type="tel">
+            </label> <br>
+            <label>
+                Email:<br/>
+                <input name="user_email" type="email">
+            </label><br />
+            <label>
+                Организация:<br/>
+                <input name="user_organization">
+            </label><br/>
+            <label>
+                Сообщение:<br/>
+                <textarea name="user_message">Введите сообщение</textarea>
+            </label><br/>
+            <label><input type="checkbox" name="data_consent" />
+                Согласие на обработку персональных данных</label><br />
+            <input name="submit_button" type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>
